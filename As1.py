@@ -12,7 +12,7 @@ else:
     print("We messed up.")
 y = "Hello World I am Temur"
 print(y.split()[0])
-# Download pyttsx3 library first! Also stay connected to the internet
+# Download pyttsx3 library first! Also stay connected to the internet you might will need it
 import pyttsx3
 engine = pyttsx3.init()
 engine.say("Hello my creator was Temur. I see a great potential in my creator! I wish him luck and success in achieving all of his goals!")
