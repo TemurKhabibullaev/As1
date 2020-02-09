@@ -1,4 +1,4 @@
-# Voice Assistant
+# Temur Khabibullaev 2/3/2020 Voice Assistant
 
 import speech_recognition as sr
 import pyttsx3
@@ -54,7 +54,7 @@ def some():
                 mixer.music.play()
             if text in functions_story:
                 stories = ["Your limitation—it's only your imagination.","Push yourself, because no one else is going to do it for you.",
-                "Sometimes later becomes never. ...","Great things never come from comfort zones. Dream it. ...","Success doesn't just find you. ...",
+                "Sometimes later becomes never. ...","Once. Temur told me: great things never come from comfort zones. Dream it. ...","Success doesn't just find you. ...",
                 "The harder you work for something, the greater you'll feel when you achieve it. So Dream bigger."]
                 speak(random.choice(list(stories)))
         except sr.UnknownValueError:
